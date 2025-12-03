@@ -33,9 +33,14 @@ public class CrapsGame {
         myPoint = 0;
     }
 
-
-
     public static void main(String[] args) {
         System.out.println("Hello World!");
+    }
+
+    public void addPropertyChangeListener(final PropertyChangeListener theListener) {
+        myPcs.addPropertyChangeListener(theListener);
+    }
+    public void removePropertyChangeListener(final PropertyChangeListener theListener) {
+        myPcs.removePropertyChangeListener(theListener);
     }
 }
