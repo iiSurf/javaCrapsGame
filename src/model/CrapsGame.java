@@ -33,6 +33,24 @@ public class CrapsGame {
         myPoint = 0;
     }
 
+    private int diceRoll() {
+        int myDiceRoll = myRandom.nextInt(10);
+        int result;
+        if (myDiceRoll < 3) {
+            result = 1;
+        } else if (myDiceRoll < 5) {
+            result = 2;
+        } else if (myDiceRoll < 7) {
+            result = 3;
+        } else if (myDiceRoll < 8) {
+            result = 4;
+        } else if (myDiceRoll < 9) {
+            result = 5;
+        } else {
+            result = 6;}
+        return result;
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello World!");
     }
