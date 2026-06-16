@@ -222,7 +222,3 @@ modal dialogs, and correct Event Dispatch Thread usage. I also generated PCM aud
 - GitHub: [github.com/iiSurf](https://github.com/iiSurf)
 
 ---
-
-## License
-
-[MIT](LICENSE)
